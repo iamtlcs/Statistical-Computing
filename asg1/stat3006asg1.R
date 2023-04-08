@@ -87,7 +87,7 @@ result <- logit_reg_newton(1, 1, 100000)
 glm(y ~ x, family = binomial)
 
 #Q4
-height <- read.table("~/Downloads/stat3006/40197366.txt", header = TRUE)
+height <- read.table("~/Downloads/STAT3006/asg1/40197366.txt", header = TRUE)
 height <- height$height
 
 EM_algo <- function(y, p, mu1, mu2, sigma1, sigma2, t) {
